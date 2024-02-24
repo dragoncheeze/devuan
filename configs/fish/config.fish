@@ -1,4 +1,4 @@
-alias v="nvim"
+alias v="vim"
 alias sway="dbus-run-session sway"
 alias reboot="loginctl reboot"
 alias shutdown="loginctl poweroff"
