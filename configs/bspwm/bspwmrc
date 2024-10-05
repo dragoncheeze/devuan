@@ -4,10 +4,10 @@
 sxhkd &
 xsetroot -cursor_name left_ptr &
 lxpolkit &
-#picom &
+picom --experimental-backends &
 killall polybar
 $HOME/.config/polybar/launch.sh
-feh --bg-fill ~/builds/wallpaper/woods.png
+feh --bg-fill ~/builds/wallpaper/tree.png
 
 bspc monitor -d 1 2 3 4 5
 

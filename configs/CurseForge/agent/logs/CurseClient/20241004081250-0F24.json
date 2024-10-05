@@ -1,0 +1,2467 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 3876,
+  "Arguments": [
+    "/tmp/.mount_CurseFL082N1/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=62126",
+    "--to-port=62146",
+    "--pid=3706",
+    "--appDataPath=/home/colby/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-10-04T13:12:49.9128001Z",
+  "Version": "1.259.1.20166",
+  "BuildDate": "2000-01-02T17:12:12Z",
+  "Start": "2024-10-04T08:12:50.3193104-05:00",
+  "Log": [
+{
+  "timestamp": "2024-10-04T08:12:50.3137317-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-10-04T08:12:50.3172409-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.259.1.20166"
+},
+{
+  "timestamp": "2024-10-04T08:12:50.3177232-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=62126,--to-port=62146,--pid=3706,--appDataPath=/home/colby/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-10-04T08:12:50.3197325-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 3706"
+},
+{
+  "timestamp": "2024-10-04T08:12:50.795762-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/colby/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-10-04T08:12:50.8782908-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 62126"
+},
+{
+  "timestamp": "2024-10-04T08:12:50.9071157-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0075863-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0088667-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0095731-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0113561-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0864308-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.0960204-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.3912266-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.391784-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4404288-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.440566-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/colby/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4588838-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "63.00"
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4715181-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.47184-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4828746-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4831715-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4833572-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4843626-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] Unable to load game instances from disk. No file was found at: /home/colby/.config/CurseForge/agent/GameInstances/AddonGameInstance.json"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4844563-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4845021-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] Unable to load game instances from disk. No file was found at: /home/colby/.config/CurseForge/agent/GameInstances/MinecraftGameInstance.json"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4861987-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 13 ms"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4864109-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4870656-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4900415-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.4934289-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game instance count is 0, so we will scan all storage drives for games."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.493455-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": false,
+    "GamesInstancesCount": 0
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5117476-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/sys/fs/pstore' volume.",
+  "error": {
+    "message": "Access to the path '/sys/fs/pstore' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__27.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__17_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5224756-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games on the '/boot/efi' volume.",
+  "error": {
+    "message": "Access to the path '/boot/efi' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.Enumeration.FileSystemEnumerator`1..ctor(String,Boolean,EnumerationOptions)",
+      "System.IO.Enumeration.FileSystemEnumerable`1+DelegateEnumerator..ctor(FileSystemEnumerable`1,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerable`1..ctor(String,FindTransform,EnumerationOptions,Boolean)",
+      "System.IO.Enumeration.FileSystemEnumerableFactory.DirectoryInfos(String,String,EnumerationOptions,Boolean)",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories(String,EnumerationOptions)",
+      "System.IO.DirectoryInfo.GetDirectories()",
+      "Curse.Platform.Adapter.Detection.ScanFoldersResolver.Resolve(DriveInfo)",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,StorageDriveModel[])",
+      "Curse.Plugin.App.CurseAppWrapper.RunStartupGameDetection()",
+      "Curse.Plugin.App.CurseAppWrapper+<Init>d__27.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<InitializeAsync>d__8.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()",
+      "Curse.Radium.Addons.BaseAddonServiceDatabase`3+<UpdateCacheAsync>d__14.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<GetRemoteItemsAsync>d__17.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Radium.Utilities.Retry+<DoAsync>d__5`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.Games.GameRepository+<<GetRemoteItemsAsync>b__17_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.TechService.AddonServiceClient+<GetGamesAsync>d__30.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "Curse.Server.Communication.BaseWebServiceClient+<GetAsync>d__14`1.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpClient+<<SendAsync>g__Core|83_0>d.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.DecompressionHandler+<SendAsync>d__16.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.RedirectHandler+<SendAsync>d__4.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnectionPool+<SendWithVersionDetectionAndRetryAsync>d__89.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox,Boolean)",
+      "System.Threading.Tasks.Task.RunContinuations(Object)",
+      "System.Threading.Tasks.Task.FinishContinuations()",
+      "System.Threading.Tasks.Task`1.TrySetResult(TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1,TResult)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Http.HttpConnection+<SendAsync>d__57.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(Thread)",
+      "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<ReadAsyncInternal>d__163`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox.SetResult(TResult)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.SetResult(TResult)",
+      "System.Net.Security.SslStream+<EnsureFullTlsFrameAsync>d__161`1.MoveNext()",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.ExecutionContextCallback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1+StateMachineBox`1.MoveNext()",
+      "System.Threading.ThreadPool+<>c.<.cctor>b__52_0(Object)",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SignalCompletion()",
+      "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.SetResult(TResult)",
+      "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs)",
+      "System.Net.Sockets.SocketAsyncEventArgs.OnCompletedInternal()",
+      "System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32,SocketFlags)",
+      "System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32,Memory`1,SocketFlags,SocketError)",
+      "System.Net.Sockets.SocketAsyncContext+BufferMemoryReceiveOperation.InvokeCallback(Boolean)",
+      "System.Net.Sockets.SocketAsyncContext+OperationQueue`1.ProcessAsyncOperation(TOperation)",
+      "System.Net.Sockets.SocketAsyncContext.ProcessAsyncReadOperation(ReadOperation)",
+      "System.Net.Sockets.SocketAsyncContext+ReadOperation.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Net.Sockets.SocketAsyncContext+AsyncOperation.Process()",
+      "System.Net.Sockets.SocketAsyncContext.HandleEvents(SocketEvents)",
+      "System.Net.Sockets.SocketAsyncEngine.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.DispatchWorkItem(Object,Thread)",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5274128-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 0 detected game instances. Operation took 40 ms"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5283134-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.528708-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5288371-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5290106-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5295638-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5296419-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5299352-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.5457953-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-10-04T08:12:51.545813-05:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-10-04T08:12:51.6936288-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "129.00"
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:51.7695967-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "38.00"
+  }
+},
+{
+  "timestamp": "2024-10-04T08:12:52.040979-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-10-04T08:12:52.041014-05:00",
+  "level": "Warn",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-10-04T08:12:56.5249619-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-10-04T08:12:56.5249831-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-10-04T08:12:56.5469916-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-10-04T08:12:56.5470099-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-10-04T08:12:59.8525889-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing comprehensive game detection for 26 games..."
+},
+{
+  "timestamp": "2024-10-04T08:12:59.8532583-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Game instance count is 0, so we will scan all storage drives for games."
+},
+{
+  "timestamp": "2024-10-04T08:12:59.8532604-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Discovering games from search...",
+  "data": {
+    "Comprehensive": true,
+    "GamesInstancesCount": 0
+  }
+},
+{
+  "timestamp": "2024-10-04T08:13:00.6720041-05:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in path '/home/colby/Games'",
+  "error": {
+    "message": "Access to the path '/home/colby/Games/.Trash-1001' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.Tasks.Task+<>c.<.cctor>b__281_0(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.TaskScheduler.TryExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.ExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+SchedulerWorkItem.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:13:00.9272557-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"World of Warcraft\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:00.9289863-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for World of Warcraft"
+},
+{
+  "timestamp": "2024-10-04T08:13:01.0629316-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"World of Warcraft 2\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:01.0632378-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for World of Warcraft 2"
+},
+{
+  "timestamp": "2024-10-04T08:13:01.1357944-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"World of Warcraft 3\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:01.13665-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for World of Warcraft 3"
+},
+{
+  "timestamp": "2024-10-04T08:13:01.6833691-05:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in '/.cache' path",
+  "error": {
+    "message": "Access to the path '/.cache' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.Tasks.Task+<>c.<.cctor>b__281_0(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.TaskScheduler.TryExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.ExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+SchedulerWorkItem.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:13:01.6873758-05:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in '/root' path",
+  "error": {
+    "message": "Access to the path '/root' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.Tasks.Task+<>c.<.cctor>b__281_0(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.TaskScheduler.TryExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.ExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+SchedulerWorkItem.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:13:03.1364076-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Saving to disk (a)."
+},
+{
+  "timestamp": "2024-10-04T08:13:03.1372511-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:03.2279701-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 90ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:03.2289005-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:03.2555987-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 26ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.1776595-05:00",
+  "level": "Warn",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "An error occurred while looking for installed in games in path '/usr/share/polkit-1'",
+  "error": {
+    "message": "Access to the path '/usr/share/polkit-1/rules.d' is denied.",
+    "type": "System.UnauthorizedAccessException",
+    "stack": [
+      "System.IO.Enumeration.FileSystemEnumerator`1.Init()",
+      "System.IO.DirectoryInfo.InternalEnumerateInfos(String,String,SearchTarget,EnumerationOptions)",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.SearchFolder(DirectoryInfo,Int32,Int32,Game[])",
+      "Curse.Radium.Games.GameService.DiscoverGamesFromSearch(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService.DetectGames(Boolean,IEnumerable`1)",
+      "Curse.Radium.Games.GameService+<>c__DisplayClass48_0.<DetectGamesAsync>b__0()",
+      "System.Threading.Tasks.Task`1.InnerInvoke()",
+      "System.Threading.Tasks.Task+<>c.<.cctor>b__281_0(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.Task.ExecuteEntry()",
+      "System.Threading.Tasks.TaskScheduler.TryExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+ConcurrentExclusiveTaskScheduler.ExecuteTask(Task)",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ProcessExclusiveTasks()",
+      "System.Threading.Tasks.ConcurrentExclusiveSchedulerPair+SchedulerWorkItem.System.Threading.IThreadPoolWorkItem.Execute()",
+      "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerDoWork(PortableThreadPool,Boolean&)",
+      "System.Threading.PortableThreadPool+WorkerThread.WorkerThreadStart()",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ],
+    "innerError": {
+      "message": "Permission denied",
+      "type": "System.IO.IOException"
+    }
+  }
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3803551-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Cataclysm Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3804304-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Cataclysm Classic"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3815297-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3815906-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Classic"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3820742-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3821334-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3853831-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Starting Game Instance Classic scan"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3853833-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Starting Game Instance Cataclysm Classic scan"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3853842-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866376-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Cataclysm Classic. Operation took 0 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866398-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Classic. Operation took 0 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866436-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 0 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866684-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing a full scan of Cataclysm Classic"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866688-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Performing a full scan of Classic"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3866711-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Performing a full scan of Retail"
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3901156-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Staring game instance Cataclysm Classic mod files scan. Scanning 23 folders using 12 logical cores."
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3901171-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Staring game instance Classic mod files scan. Scanning 19 folders using 12 logical cores."
+},
+{
+  "timestamp": "2024-10-04T08:13:04.3901173-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Staring game instance Retail mod files scan. Scanning 36 folders using 12 logical cores."
+},
+{
+  "timestamp": "2024-10-04T08:13:06.2909818-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed scanning 36 folders from Retail category section /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns. Operation took 00:00:01.8999254."
+},
+{
+  "timestamp": "2024-10-04T08:13:06.2909922-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Completed fingerprinting local mods for Retail. Operation took 1903 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.2947205-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.3913927-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.5200105-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.6460751-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 126ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.6467224-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.6476678-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.7079411-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 61 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:06.7086195-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 2323 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.2474423-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed scanning 23 folders from Cataclysm Classic category section /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns. Operation took 00:00:04.8573069."
+},
+{
+  "timestamp": "2024-10-04T08:13:09.2474515-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed fingerprinting local mods for Cataclysm Classic. Operation took 4860 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.2475691-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.299449-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Completed scanning 19 folders from Classic category section /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns. Operation took 00:00:04.9093234."
+},
+{
+  "timestamp": "2024-10-04T08:13:09.2994546-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Completed fingerprinting local mods for Classic. Operation took 4912 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.2994816-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on GameInst.ProcMatches -> GetFingerprints"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.3485797-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.4007282-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.4602986-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.5814395-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 121ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.5814894-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.5814946-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Checking for game instance Cataclysm Classic updates"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.5815594-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6413576-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Cataclysm Classic. Operation took 59 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6414171-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed game instance Cataclysm Classic scan. Operation took 5256 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6884981-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6884982-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6884982-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.696218-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 114ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6962992-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Checking for game instance Classic updates"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.6963308-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.7467373-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5778/91/DBM-Core-11.0.21.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.7467372-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/602/DBM-Dungeons-r158.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.7573205-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/602/DBM-Dungeons-r158.zip to /tmp/CF/doLUyiHnUCtEwIN0geQ/1.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.757321-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5778/91/DBM-Core-11.0.21.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/2.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.7834772-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/793/Leatrix_Plus-11.0.11.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.7835639-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/793/Leatrix_Plus-11.0.11.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/3.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.8354321-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Classic. Operation took 139 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:09.8354716-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Completed game instance Classic scan. Operation took 5450 ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.1833883-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2083956-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Plus (The War Within) - (94855) in 424ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2355764-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Plus (The War Within) - (94855) in 27ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2428233-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2519415-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.252716-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2536036-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.2846545-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.3834645-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Downloaded full file for project DBM - Dungeons, Delves, & Events (Requires Deadly Boss Mods) - DBM - (314994) in 637ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.3997001-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.4379711-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Cached project file for project DBM - Dungeons, Delves, & Events (Requires Deadly Boss Mods) - DBM - (314994) in 54ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5102984-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5148956-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5157687-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.517465-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5192321-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5202295-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5212679-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5229586-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5245255-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.525927-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5270711-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5281983-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WarWithin"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5291188-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Delves-WarWithin"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.5799157-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.6008482-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.609738-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 356ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.6097794-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.6114634-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.6630969-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/790/Leatrix_Maps-11.0.11.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.663165-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/790/Leatrix_Maps-11.0.11.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/11.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.6633012-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloaded full file for project DBM - Deadly Boss Mods (DBM-Core) - (3358) in 917ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7756397-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7797185-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Maps (The War Within) - (298842) in 116ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7839877-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Maps (The War Within) - (298842) in 4ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7853723-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7955536-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.7957787-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.8497638-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Cached project file for project DBM - Deadly Boss Mods (DBM-Core) - (3358) in 186ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.8856553-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 275ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:10.8856991-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0371099-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0416871-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0418503-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0422169-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-KhazAlgar"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0424117-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-WarWithin"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0427115-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0436806-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0438738-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0493145-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Test"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.0498709-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Test-WarWithin"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.1219926-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.1256142-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 239ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.13518-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.136366-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:11.245915-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 109ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.8672579-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.8672668-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.9150147-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/802/Leatrix_Plus-1.15.53-classic.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.9151093-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/802/Leatrix_Plus-1.15.53-classic.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/19.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.9209659-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/801/Leatrix_Maps-1.15.53-classic.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:14.9210084-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/801/Leatrix_Maps-1.15.53-classic.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/20.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.006717-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0133783-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Maps (Classic Era) - (324034) in 92ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0168771-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Maps (Classic Era) - (324034) in 3ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0181247-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0199649-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0201727-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0202305-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.036713-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0544729-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Plus (Classic Era) - (322362) in 139ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0705649-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Plus (Classic Era) - (322362) in 16ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0756163-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.083439-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.0837975-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.1681692-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 147ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.1682105-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:15.2657223-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 97ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1278318-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1278373-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1278505-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1784344-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/816/Leatrix_Plus-4.0.27-cata.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1785258-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/816/Leatrix_Plus-4.0.27-cata.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/31.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1787861-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5773/796/Plater-v589.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1788329-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5773/796/Plater-v589.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/32.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.1871648-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5772/63/Dominos-11.0.5.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.187203-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5772/63/Dominos-11.0.5.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/33.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.2847016-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.2980388-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Dominos - (6650) in 110ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3098225-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Cached project file for project Dominos - (6650) in 11ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3213281-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Dominos"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3232613-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Dominos_Cast"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3235734-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Dominos_Config"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3248842-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Dominos_Progress"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3252305-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Dominos_Roll"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3253016-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Masque_Dominos"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.338363-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3416867-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3423853-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.347833-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3570326-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3750341-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Plus (Cataclysm Classic) - (463863) in 196ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3945665-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Plus (Cataclysm Classic) - (463863) in 19ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.3991098-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.419903-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.420225-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.4783093-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Plater Nameplates - (100547) in 299ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.6333093-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Cached project file for project Plater Nameplates - (100547) in 154ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.798691-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Plater"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8110457-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 468ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8110779-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8112051-05:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8602789-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5775/815/Leatrix_Maps-4.0.27-cata.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8603706-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5775/815/Leatrix_Maps-4.0.27-cata.zip to /tmp/CF/G3IOpfZ20mDKmtcx5ktww/43.zip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8713039-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.8801638-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9348194-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 123ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9348532-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9734645-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9755624-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Leatrix Maps (Cataclysm Classic) - (463868) in 115ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9800114-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Cached project file for project Leatrix Maps (Cataclysm Classic) - (463868) in 4ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9820164-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9866443-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:18.9868904-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-10-04T08:13:19.0663649-05:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 131ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:19.0663895-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:19.165301-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 98ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9729254-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9729733-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9730242-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9736492-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9736534-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9736542-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9737001-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9738502-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9783477-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 4ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:25.9784163-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-10-04T08:13:26.0946015-05:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 116ms"
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1033775-05:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1035192-05:00",
+  "level": "Warn",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1481339-05:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1481967-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1508058-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-10-04T08:13:26.1601715-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}
