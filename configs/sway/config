@@ -9,6 +9,9 @@ font pango:monospace 16
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 exec lxpolkit
+exec pipewire
+exec pipewire-pulse
+exec wireplumber
 exec_always autotiling
 # Home row direction keys, like vim
 set $left h
@@ -21,7 +24,7 @@ set $term foot
 set $menu rofi -show drun -show-icons
 
 ### Output configuration
-output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@75Hz
+output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@75Hz max_render_time 5
 
 # Example configuration:
 #
@@ -62,9 +65,9 @@ output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@7
 #
     # Start a terminal
     bindsym $mod+Return exec $term
-    bindsym $mod+n exec thunar
-    bindsym $mod+g exec lutris
-    bindsym $mod+b exec brave
+    bindsym $mod+n exec pcmanfm
+    bindsym $mod+g exec battle
+    bindsym $mod+b exec brave-browser
     # Kill focused window
     bindsym $mod+x kill
 

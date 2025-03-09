@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo dpkg --add-architecture i386 && sudo apt update &&
 sudo apt install sway swaybg swaylock swayidle \
     python3-i3ipc seatd dunst light playerctl \
     i3status alsa-utils pulseaudio pulsemixer pavucontrol libpam-ck-connector \
