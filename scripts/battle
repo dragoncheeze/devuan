@@ -1,0 +1,2 @@
+#!/bin/bash
+GAMEID=battle gamemoderun umu-run ~/Games/umu/battle/drive_c/"Program Files (x86)/Battle.net/Battle.net Launcher.exe"
